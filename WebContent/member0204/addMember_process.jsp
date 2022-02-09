@@ -52,7 +52,7 @@
 			pstmt.executeUpdate();
 			%><script>
 				alert("등록이 완료되었습니다.");
-				location.herf = "/HRD_0204/member0204/memberSelect.jsp";
+				location.href = "/HRD_0204/member0204/memberSelect.jsp";
 			</script><%
 		}catch(SQLException e){
 			e.printStackTrace();
